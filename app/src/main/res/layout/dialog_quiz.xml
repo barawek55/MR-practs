@@ -1,0 +1,82 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/cyber_panel"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тест: планеты-гиганты"
+        android:textColor="@color/neon_cyan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отметьте только планеты-гиганты Солнечной системы."
+        android:textColor="@color/text_dim"
+        android:textSize="14sp"
+        android:paddingBottom="12dp"/>
+
+    <CheckBox
+        android:id="@+id/cb0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Меркурий"
+        android:textColor="@color/text_light"/>
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Венера"
+        android:textColor="@color/text_light"/>
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Земля"
+        android:textColor="@color/text_light"/>
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Марс"
+        android:textColor="@color/text_light"/>
+
+    <CheckBox
+        android:id="@+id/cb4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Юпитер"
+        android:textColor="@color/text_light"/>
+
+    <CheckBox
+        android:id="@+id/cb5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сатурн"
+        android:textColor="@color/text_light"/>
+
+    <CheckBox
+        android:id="@+id/cb6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Уран"
+        android:textColor="@color/text_light"/>
+
+    <CheckBox
+        android:id="@+id/cb7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нептун"
+        android:textColor="@color/text_light"/>
+
+</LinearLayout>
