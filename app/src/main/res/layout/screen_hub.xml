@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/uiCanvas"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_banner"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="24dp"
+            android:paddingTop="40dp"
+            android:paddingEnd="24dp"
+            android:paddingBottom="36dp">
+
+            <TextView
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:background="@drawable/bg_avatar_ring"
+                android:gravity="center"
+                android:text="МК"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/profileName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/student_full_name"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/profileGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:alpha="0.85"
+                    android:text="@string/student_group"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="28dp"
+            android:text="Выберите экран"
+            android:textColor="@color/uiInkSoft"
+            android:textSize="13sp"
+            android:textAllCaps="true"
+            android:letterSpacing="0.12" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tileDawn"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            android:text="🌅    Утро"
+            android:textColor="@color/uiInk"
+            android:textSize="17sp"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/uiHairline"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tileNoon"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            android:text="☀️    День"
+            android:textColor="@color/uiInk"
+            android:textSize="17sp"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/uiHairline"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tileDusk"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            android:text="🌆    Вечер"
+            android:textColor="@color/uiInk"
+            android:textSize="17sp"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/uiHairline"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tileMidnight"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            android:text="🌙    Ночь"
+            android:textColor="@color/uiInk"
+            android:textSize="17sp"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/uiHairline"
+            app:strokeWidth="1dp" />
+
+    </LinearLayout>
+</ScrollView>

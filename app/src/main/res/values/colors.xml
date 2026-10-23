@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#00695C</color>
+    <color name="colorPrimaryDark">#003D33</color>
+    <color name="colorAccent">#FFA726</color>
+
+    <color name="uiCanvas">#F4F6F7</color>
+    <color name="uiSurface">#FFFFFF</color>
+    <color name="uiInk">#1A1A1A</color>
+    <color name="uiInkSoft">#6B6B6B</color>
+    <color name="uiHairline">#E4E7EA</color>
+
+    <color name="nightCanvas">#0B1020</color>
+    <color name="nightSurface">#151B34</color>
+    <color name="nightInk">#E7EAF6</color>
+    <color name="nightInkSoft">#9AA3C7</color>
+    <color name="nightAccent">#7986CB</color>
+</resources>
